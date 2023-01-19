@@ -15,6 +15,9 @@ button {
   cursor: pointer;
 }
 
+i {
+  cursor: pointer;
+}
 #container {
   display: flex;
 }
@@ -105,4 +108,34 @@ ul {
 #logout:hover {
   background: #ff3a3a;
   color: #fff;
+}
+
+.bx-menu {
+  position: absolute;
+  font-size: 32px;
+  padding: 0.2rem;
+}
+
+#cross {
+  position: absolute;
+  left: 210px;
+  /* padding: 1rem; */
+  font-size: 28px;
+  display: none;
+  z-index: 33;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    background: rgb(204, 174, 174);
+    min-height: 100vh;
+  }
+  .sidebar {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s;
+  }
 }
