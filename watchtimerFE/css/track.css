@@ -32,8 +32,8 @@ i {
 }
 
 .main {
-  background: rgb(85, 177, 97);
   width: 100%;
+  padding: 0.8rem 2rem;
 }
 
 ul {

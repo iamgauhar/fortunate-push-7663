@@ -6,7 +6,7 @@ function sidebar() {
             </div>
 
             <ul class="menu">
-                <a href="">
+                <a href="track.html">
                     <i class='bx bx-timer' style='color:#ffffff'></i>
                     <li>Track</li>
                 </a>
@@ -14,7 +14,7 @@ function sidebar() {
                     <i class='bx bx-briefcase' style='color:#ffffff'></i>
                     <li>Projects</li>
                 </a>
-                <a href="">
+                <a href="clients.html">
                     <i class='bx bx-folder'></i>
                     <li>Clients</li>
                 </a>
