@@ -17,6 +17,7 @@ button {
 
 i {
   cursor: pointer;
+  font-size: 24px;
 }
 #container {
   display: flex;

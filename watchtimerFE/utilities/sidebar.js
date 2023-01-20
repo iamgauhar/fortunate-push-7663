@@ -10,7 +10,7 @@ function sidebar() {
                     <i class='bx bx-timer' style='color:#ffffff'></i>
                     <li>Track</li>
                 </a>
-                <a href="">
+                <a href="projects.html">
                     <i class='bx bx-briefcase' style='color:#ffffff'></i>
                     <li>Projects</li>
                 </a>
@@ -18,9 +18,9 @@ function sidebar() {
                     <i class='bx bx-folder'></i>
                     <li>Clients</li>
                 </a>
-                <a href="">
+                <a href="teams.html">
                     <i class='bx bx-group' style='color:#ffffff'></i>
-                    <li>Team</li>
+                    <li>Teams</li>
                 </a>
             </ul>
 
