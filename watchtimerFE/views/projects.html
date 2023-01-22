@@ -24,6 +24,7 @@
         <div class="nav"></div>
 
         <div class="main">
+
             <div class="new-project">
                 <h1>New Project</h1>
                 <form action="" method="post">
@@ -35,9 +36,36 @@
                         <option value="client1">client1</option>
                         <option value="client1">client1</option>
                     </select>
+                    <label for="description">Project Description</label>
+                    <textarea name="description" id="description" cols="10" rows="10"></textarea>
                     <div class="form-btn">
                         <input type="submit" name="" id="submit">
                         <button id="cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="edit-project">
+                <h1>edit-project</h1>
+                <form action="" method="post">
+                    <label for="name">Project Name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="client">Client</label>
+                    <select name="client" id="client">
+                        <option value="">Select client</option>
+                        <option value="client1">client1</option>
+                        <option value="client1">client1</option>
+                    </select>
+                    <label for="desc">Project Description</label>
+                    <textarea name="desc" id="desc" cols="10" rows="10"></textarea>
+                    <label for="client">Status</label>
+                    <select name="client" id="client">
+                        <option value="">Select Status</option>
+                        <option value="Active">Active</option>
+                        <option value="Deactive">Deactive</option>
+                    </select>
+                    <div class="form-btn">
+                        <input type="submit" name="" id="submit">
+                        <button id="cancel-edit">Cancel</button>
                     </div>
                 </form>
             </div>
